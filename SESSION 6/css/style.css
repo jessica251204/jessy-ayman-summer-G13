@@ -1,0 +1,147 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 40px;
+  background: #cecfc6;
+
+}
+
+.cards {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.card {
+  position: relative;
+  max-width: 330px;
+  background: white;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  
+}
+
+.meta-bar {
+  display: flex;
+  padding: 12px 16px 4px;
+  font-size: 11px;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #555;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.meta-bar .tag {
+  background: #eef7fa;
+  padding: 4px 8px;
+  border-radius: 999px;
+  color: #007784;
+  margin-right: 12px;
+}
+
+.fa-solid.fa-comment {
+  display: flex;
+  margin-left: 12px;
+}
+
+.meta-bar .comments {
+  display: flex;
+}
+
+.meta-bar .date {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4/3;
+  overflow: hidden;
+}
+.image-wrapper img.main-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: brightness(0.95);
+  transition: transform .4s ease;
+}
+.card:hover .main-img {
+  transform: scale(1.03);
+}
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,.5) 30%, rgba(0,0,0,0) 60%);
+  display: flex;
+  align-items: flex-start;
+  padding: 12px 16px;
+}
+.read-more {
+  background: rgba(255,255,255,0.9);
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #222;
+  box-shadow: 0 6px 18px -4px rgba(0,0,0,0.2);
+  display: flex;
+  align-self: flex-end;
+}
+
+.avatar {
+  position: absolute;
+  bottom: -6px;
+  right: 16px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 3px;
+  background: white;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  overflow: hidden;
+  margin-bottom: 3%;
+}
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+
+.card-body {
+  padding: 40px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.card-body h3 {
+  margin: 0 0 6px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color:rgb(42, 184, 184);
+  position: relative;
+}
+
+.card-body p {
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.45;
+  margin: 12px 0 0;
+  flex: 1;
+}
