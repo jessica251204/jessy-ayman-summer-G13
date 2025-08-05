@@ -1,0 +1,70 @@
+/* Responsive styles for small screens (max 768px) */
+@media (max-width: 768px) {
+    .hero{
+        width: 100%;
+    }
+      /* Navbar responsiveness if needed */
+  .nav{
+    display: none;
+  }
+  .nav-wrapper {
+  width: 100%;
+  }
+.logo{
+    display: flex;
+    align-items: flex-end;
+
+}
+ .links{
+    display: none;
+ }
+ h1{
+    display: flex;
+ }
+
+ .controls{
+    display: none;
+ }
+
+  .services {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .services .service-card {
+    width: 100%;
+  }
+
+
+  .about-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .about-text {
+    width: 100%;
+  }
+
+  .about-images {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .about-images img {
+    max-width: 120px;
+  }
+
+  /* Section titles centered */
+  h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+
+
+}
