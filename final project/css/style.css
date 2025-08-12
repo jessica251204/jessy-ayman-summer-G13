@@ -1,0 +1,94 @@
+ footer {
+  background-color: #121212;
+  color: white;
+  padding-top: 50px;
+  font-size: 14px;
+}
+
+footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.footer-logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #2c2c2c;
+  padding-top: 20px;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.payment-icons img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.hover-box:hover {
+    background-color: #ffffff; 
+    color: rgb(247, 12, 12);
+}
+
+.offcanvas-body ul{
+    list-style: none;
+}
+.offcanvas-body li{
+    margin: 0;
+    padding: 5% 0;
+    border-bottom: 1px solid lightgray;
+}
+.offcanvas-body li:hover{
+   text-decoration: underline;
+}
+.offcanvas-body li i{
+    margin-right: 2%;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: -10px;
+}
+.carousel-item button:hover{
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+
+}
+.w-40{
+    width: 40%;
+}
+.cust-top-start{
+    left: 8%;
+    top: 30%;
+}
+.custom-top-start{
+    left: 8%;
+    top: 10%;
+}
+.cust-btn{
+    background-color: transparent;
+    border: 1px solid black;
+}
+.cust-btn:hover{
+    background-color: black;
+    color: white;
+}
+.zoom-img {
+  transition: transform 0.4s ease; 
+}
+
+.zoom-img:hover {
+  transform: scale(1.05); 
+}
+
+
+
+
