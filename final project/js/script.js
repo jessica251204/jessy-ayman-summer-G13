@@ -35,9 +35,9 @@
   };
 
 //   Scroll smoothly to top
-//   document.getElementById("backToTopBtn").addEventListener("click", function () {
-//     window.scrollTo({ top: 0, behavior: 'smooth' });
-//   });
+  document.getElementById("backToTopBtn").addEventListener("click", function () {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
 
     document.querySelectorAll(".thumb").forEach(img => {
     img.addEventListener("click", function() {

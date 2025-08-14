@@ -146,12 +146,12 @@ footer a:hover {
   #backToTopBtn {
     position: fixed;
     bottom: 20px;  /* Distance from bottom */
-    left: 10px;    /* Distance from left */
+    left: 10px;    
     z-index: 999;  /* On top of everything */
     font-size: 12px;
     padding: 5px 8px;
     border-radius: 4px;
-    display: none; /* Hidden by default */
+    display: none;
   } 
 
 
@@ -196,10 +196,10 @@ footer a:hover {
     }
 .product-icons {
   position: absolute;
-  top: 10px;     /* distance from top */
-  right: 10px;   /* distance from right */
+  top: 10px;     
+  right: 10px;   
   display: flex;
-  flex-direction: column; /* stack icons vertically */
+  flex-direction: column; 
   gap: 8px;
   opacity: 0;
   transition: opacity 0.3s ease;
