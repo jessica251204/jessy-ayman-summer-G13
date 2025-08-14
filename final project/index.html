@@ -327,18 +327,22 @@
   </div>
 
   <!-- Flash Deals -->
-  <div class="container">
-    <div class="d-flex justify-content-between align-items-center mb-3">
-      <h4>Flash Deals</h4>
-          <div class="countdown d-flex align-items-center gap-2 "> ends in
-      <div class="time-circle bg-black rounded-circle p-2 text-white">00</div>
+<div class="container my-4">
+  <!-- Header with countdown -->
+  <div class="d-flex justify-content-between align-items-center mb-3">
+    <h4>flash deals</h4>
+    <div class="countdown d-flex align-items-center gap-2">
+      ends in
+      <div id="hours" class="time-circle bg-black rounded-circle p-2 text-white">00</div>
       <span>:</span>
-      <div class="time-circle bg-black rounded-circle p-2 text-white">00</div>
+      <div id="minutes" class="time-circle bg-black rounded-circle p-2 text-white">00</div>
       <span>:</span>
-      <div class="time-circle bg-black rounded-circle p-2 text-white">00</div>
+      <div id="seconds" class="time-circle bg-black rounded-circle p-2 text-white">00</div>
     </div>
-      <a href="#" class="text-decoration-none text-dark">See All Products</a>
-    </div>
+    <a href="shop.html" class="text-decoration-none text-dark">See All Products</a>
+  </div>
+
+
 
 <!-- flash cards-->
 <div class="row row-cols-1 row-cols-md-5 g-0">
@@ -348,7 +352,7 @@
       <div class="col product-item-fashion">
         <div class="card position-relative card-product">
           <span class="discount-badge">-35%</span>
-          <img src="images/electronic-30-6-300x300.jpg" class="card-img-top" alt="">
+          <a href="product.html"><img src="images/electronic-30-6-300x300.jpg" class="card-img-top" alt=""></a>
           <div class="product-icons">
               <a href="#"><i class="fa-regular fa-heart"></i></a>
   <a href="#"><i class="fa-solid fa-left-right"></i></a>
@@ -469,7 +473,7 @@
         <!-- Card 1 -->
         <div class="col-md-4">
             <div class="card d-flex flex-row p-2">
-                <img src="images/shoes.jpg" class="card-img-left" alt="Product">
+                <a href="product.html"><img src="images/shoes.jpg" class="card-img-left" alt="Product"></a>
                 <div class="card-body p-2">
                     <h6 class="card-title mb-1">Lorem ipsum dolor sit amet consectetur adipisicing.</h6>
                     <p class=" fw-bold mb-1">$1,390</p>
